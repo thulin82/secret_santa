@@ -1,0 +1,23 @@
+{
+    "name": "thulin82/secret-santa",    
+    "type": "webapp",
+    "description": "Raffle to set up secret santa's",
+    "keywords": ["secret santa", "one page application"],
+    "homepage": "https://github.com/thulin82",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Markus Thulin",
+            "email": "macky_b@hotmail.com",
+            "homepage": "https://github.com/thulin82",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "twbs/bootstrap" : "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "thulin82\\": "src/" }
+    }
+}

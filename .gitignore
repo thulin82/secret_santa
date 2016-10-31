@@ -1,0 +1,10 @@
+# Logs and databases
+*.log
+
+# Composer
+vendor
+composer.lock
+
+# Tests
+report
+coverage.clover
